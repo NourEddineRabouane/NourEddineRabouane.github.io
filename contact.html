@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactez-nous - Ma Librairie en Ligne</title>
+</head>
+<body>
+
+    <header>
+        <h1>Contactez-nous</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="livres.html">Livres</a></li>
+                <li><a href="panier.html">Panier</a></li>
+                <li><a href="connexion.html">Connexion</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="contact-form">
+            <h2>Envoyez-nous un message</h2>
+            <p>Pour toute question ou demande d'information.</p>
+            
+            <form >
+                <div>
+                    <label for="nom_contact">Votre Nom :</label>
+                    <input type="text" id="nom_contact" name="nom_contact" required>
+                </div>
+                <div>
+                    <label for="email_contact">Votre Email :</label>
+                    <input type="email" id="email_contact" name="email_contact" required>
+                </div>
+                <div>
+                    <label for="sujet">Sujet :</label>
+                    <input type="text" id="sujet" name="sujet" required>
+                </div>
+                <div>
+                    <label for="message">Message :</label>
+                    <textarea id="message" name="message" rows="8" required></textarea>
+                </div>
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Ma Librairie en Ligne</p>
+    </footer>
+
+</body>
+</html>
